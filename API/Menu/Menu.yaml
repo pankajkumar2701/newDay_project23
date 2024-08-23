@@ -1,0 +1,30 @@
+- name: People
+  icon: fa-users
+  items:
+  - name: Tenant
+    description: Tenant management and administration.
+    route: "tenant"
+    icon: fa-building
+  - name: User
+    description: User management and administration.
+    route: "user"
+    icon: fa-user
+  - name: Role
+    description: Role management and administration.
+    route: "role"
+    icon: fa-user-tag
+  - name: User In Role
+    description: UserRole management and administration.
+    route: "userinrole"
+    icon: fa-user-cog
+- name: Content
+  icon: fa-book
+  items:
+  - name: Author
+    description: Author management and administration.
+    route: "author"
+    icon: fa-user-edit
+  - name: Books
+    description: Book management and administration.
+    route: "books"
+    icon: fa-book-open

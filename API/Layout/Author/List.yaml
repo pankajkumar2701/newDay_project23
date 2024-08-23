@@ -1,0 +1,24 @@
+grid:
+  cardTitle:
+    fields:
+      - fieldName: Name
+        dataType: string
+        label: Name
+        column: 12
+  cardDetail:
+    fields:
+      - fieldName: CreatedOn
+        dataType: datetime
+        label: Created on
+        column: 12
+      - fieldName: UpdatedOn
+        dataType: datetime
+        label: Updated on
+        column: 12
+filter:
+  fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      entityName: null
+      column: 12

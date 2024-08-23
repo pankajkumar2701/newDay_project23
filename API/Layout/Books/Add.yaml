@@ -1,0 +1,47 @@
+- dataType: section
+  label: Book detail
+  showTitle: true
+  column: 12
+  icon: far fa-address-book
+  fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      entityName: null
+      column: 3
+    - fieldName: AuthorId
+      dataType: guid
+      label: AuthorId
+      entityName: Author
+      column: 5
+    - fieldName: Genre
+      dataType: string
+      label: Genre
+      entityName: null
+      column: 4
+    - fieldName: Publication
+      dataType: string
+      label: Publication
+      entityName: null
+      column: 6
+    - fieldName: IsAvailable
+      dataType: boolean
+      label: IsAvailable
+      entityName: null
+      column: 6
+    - fieldName: PublishDate
+      dataType: datetime
+      label: PublishDate
+      entityName: null
+      column: 4
+    - fieldName: Price
+      dataType: numeric
+      required: true
+      label: Price
+      entityName: null
+      column: 4
+    - fieldName: Quantity
+      dataType: numeric
+      label: Quantity
+      entityName: null
+      column: 4

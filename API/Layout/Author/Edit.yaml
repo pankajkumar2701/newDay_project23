@@ -1,0 +1,11 @@
+- dataType: section
+  label: Author detail
+  showTitle: true
+  column: 12
+  fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      entityName: null
+      column: 12
+  icon: fab fa-accusoft

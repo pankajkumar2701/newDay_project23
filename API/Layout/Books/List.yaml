@@ -1,0 +1,42 @@
+grid:
+  cardTitle:
+    fields:
+      - fieldName: Title
+        dataType: string
+        label: Title
+        column: 12
+  cardDetail:
+    fields:
+      - fieldName: Genre
+        dataType: string
+        label: Genre
+        column: 12
+      - fieldName: AuthorId
+        dataType: guid
+        label: Author id
+        column: 12
+      - fieldName: Quantity
+        dataType: numeric
+        label: Quantity
+        column: 12
+      - fieldName: Publication
+        dataType: string
+        label: Publication
+        column: 12
+filter:
+  fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      entityName: null
+      column: 12
+    - fieldName: AuthorId
+      dataType: guid
+      label: AuthorId
+      entityName: Author
+      column: 12
+    - fieldName: Genre
+      dataType: string
+      label: Genre
+      entityName: null
+      column: 12
